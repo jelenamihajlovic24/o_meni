@@ -1,0 +1,135 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 28/11/2017 17:38
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-social-media:before { content: "\f100"; }
+.flaticon-whatsapp-logo:before { content: "\f101"; }
+.flaticon-youtube:before { content: "\f102"; }
+.flaticon-youtube-logo:before { content: "\f103"; }
+.flaticon-instagram:before { content: "\f104"; }
+.flaticon-linkedin-logo:before { content: "\f105"; }
+.flaticon-facebook-logo:before { content: "\f106"; }
+.flaticon-facebook-placeholder-for-locate-places-on-maps:before { content: "\f107"; }
+.flaticon-twitter-logo-silhouette:before { content: "\f108"; }
+.flaticon-bottle:before { content: "\f109"; }
+.flaticon-food-10:before { content: "\f10a"; }
+.flaticon-fruit-2:before { content: "\f10b"; }
+.flaticon-food-9:before { content: "\f10c"; }
+.flaticon-tool:before { content: "\f10d"; }
+.flaticon-drink-1:before { content: "\f10e"; }
+.flaticon-medical:before { content: "\f10f"; }
+.flaticon-tea:before { content: "\f110"; }
+.flaticon-food-8:before { content: "\f111"; }
+.flaticon-fruit-1:before { content: "\f112"; }
+.flaticon-food-7:before { content: "\f113"; }
+.flaticon-party-1:before { content: "\f114"; }
+.flaticon-party:before { content: "\f115"; }
+.flaticon-transport:before { content: "\f116"; }
+.flaticon-food-6:before { content: "\f117"; }
+.flaticon-food-5:before { content: "\f118"; }
+.flaticon-restaurant:before { content: "\f119"; }
+.flaticon-fruit:before { content: "\f11a"; }
+.flaticon-food-4:before { content: "\f11b"; }
+.flaticon-drink:before { content: "\f11c"; }
+.flaticon-food-3:before { content: "\f11d"; }
+.flaticon-food-2:before { content: "\f11e"; }
+.flaticon-food-1:before { content: "\f11f"; }
+.flaticon-food:before { content: "\f120"; }
+.flaticon-sign:before { content: "\f121"; }
+.flaticon-menu:before { content: "\f122"; }
+.flaticon-fish:before { content: "\f123"; }
+.flaticon-hot-drink:before { content: "\f124"; }
+.flaticon-apple:before { content: "\f125"; }
+.flaticon-shop:before { content: "\f126"; }
+.flaticon-cutlery:before { content: "\f127"; }
+.flaticon-scooter:before { content: "\f128"; }
+.flaticon-cooker:before { content: "\f129"; }
+.flaticon-wine:before { content: "\f12a"; }
+.flaticon-tray:before { content: "\f12b"; }
+.flaticon-beer:before { content: "\f12c"; }
+.flaticon-coffee-cup:before { content: "\f12d"; }
+.flaticon-birthday-cake:before { content: "\f12e"; }
+.flaticon-cheers:before { content: "\f12f"; }
+    
+    $font-Flaticon-social-media: "\f100";
+    $font-Flaticon-whatsapp-logo: "\f101";
+    $font-Flaticon-youtube: "\f102";
+    $font-Flaticon-youtube-logo: "\f103";
+    $font-Flaticon-instagram: "\f104";
+    $font-Flaticon-linkedin-logo: "\f105";
+    $font-Flaticon-facebook-logo: "\f106";
+    $font-Flaticon-facebook-placeholder-for-locate-places-on-maps: "\f107";
+    $font-Flaticon-twitter-logo-silhouette: "\f108";
+    $font-Flaticon-bottle: "\f109";
+    $font-Flaticon-food-10: "\f10a";
+    $font-Flaticon-fruit-2: "\f10b";
+    $font-Flaticon-food-9: "\f10c";
+    $font-Flaticon-tool: "\f10d";
+    $font-Flaticon-drink-1: "\f10e";
+    $font-Flaticon-medical: "\f10f";
+    $font-Flaticon-tea: "\f110";
+    $font-Flaticon-food-8: "\f111";
+    $font-Flaticon-fruit-1: "\f112";
+    $font-Flaticon-food-7: "\f113";
+    $font-Flaticon-party-1: "\f114";
+    $font-Flaticon-party: "\f115";
+    $font-Flaticon-transport: "\f116";
+    $font-Flaticon-food-6: "\f117";
+    $font-Flaticon-food-5: "\f118";
+    $font-Flaticon-restaurant: "\f119";
+    $font-Flaticon-fruit: "\f11a";
+    $font-Flaticon-food-4: "\f11b";
+    $font-Flaticon-drink: "\f11c";
+    $font-Flaticon-food-3: "\f11d";
+    $font-Flaticon-food-2: "\f11e";
+    $font-Flaticon-food-1: "\f11f";
+    $font-Flaticon-food: "\f120";
+    $font-Flaticon-sign: "\f121";
+    $font-Flaticon-menu: "\f122";
+    $font-Flaticon-fish: "\f123";
+    $font-Flaticon-hot-drink: "\f124";
+    $font-Flaticon-apple: "\f125";
+    $font-Flaticon-shop: "\f126";
+    $font-Flaticon-cutlery: "\f127";
+    $font-Flaticon-scooter: "\f128";
+    $font-Flaticon-cooker: "\f129";
+    $font-Flaticon-wine: "\f12a";
+    $font-Flaticon-tray: "\f12b";
+    $font-Flaticon-beer: "\f12c";
+    $font-Flaticon-coffee-cup: "\f12d";
+    $font-Flaticon-birthday-cake: "\f12e";
+    $font-Flaticon-cheers: "\f12f";
